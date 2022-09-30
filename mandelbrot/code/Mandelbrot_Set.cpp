@@ -65,8 +65,8 @@ int main()
 
     Text feed;
     Font font;
-    font.loadFromFile("mandelbrot/fonts/TitilliumWeb-Regular.ttf");
-    if (!font.loadFromFile("mandelbrot/fonts/TitilliumWeb-Regular.ttf"))
+    font.loadFromFile("fonts/TitilliumWeb-Regular.ttf");
+    if (!font.loadFromFile("fonts/TitilliumWeb-Regular.ttf"))
     {
         // error
     }
