@@ -1,4 +1,3 @@
-
 #ifndef COMPLEXPLANE_H
 #define COMPLEXPLANE_H
 
@@ -36,10 +35,6 @@ public:
         Uint8& r,
         Uint8& g,
         Uint8& b);
-    void calculate(Vector2f resolution, 
-        VertexArray& pixels, 
-        RenderWindow& window, 
-        ComplexPlane imaginaryPlane);
 };
 
 #endif

@@ -9,7 +9,6 @@ ComplexPlane::ComplexPlane(float aspectRatio)
     m_view.setCenter(Vector2f{ 0.0f, 0.0f });
     m_view.setSize(Vector2f(BASE_WIDTH, -BASE_HEIGHT * m_aspectRatio));
     m_zoomCount = 0;
-    
 }
 
 void ComplexPlane::zoomIn()
